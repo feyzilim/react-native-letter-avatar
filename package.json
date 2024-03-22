@@ -1,9 +1,9 @@
 {
   "name": "react-native-letter-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Native component that displays the first letter of a given text inside a circle.",
-  "main": "dist/LetterCircle.js",
-  "types": "dist/LetterCircle.d.ts",
+  "main": "dist/LetterAvatar.js",
+  "types": "dist/LetterAvatar.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
