@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // Output directory for compiled files
+    "esModuleInterop": true,
+    "strict": true,      // Enable all strict type-checking options
+    "module": "esnext",  // Specify module code generation method
+    "target": "esnext",  // Specify ECMAScript target version
+    "jsx": "react-native",  // Preserve JSX; it will be converted by the React Native Babel plugin
+    "allowJs": true,    // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+    "noEmit": false,    // Enable emitting files
+    "declaration": true, // Generate corresponding '.d.ts' file
+    "moduleResolution": "node", // Resolve modules using Node.js style
+    "baseUrl": "./",    // Base directory to resolve non-absolute module names
+    "paths": {          // Specify paths for imports
+      "*": ["src/*"]
+    },
+    "lib": ["es6"]      // Specify a set of JavaScript language features to compile
+  },
+  "include": ["src/**/*"], // Files and directories to compile
+  "exclude": ["node_modules", "babel.config.js", "__tests__"] // Directories to exclude from compilation
+}

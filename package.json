@@ -1,0 +1,35 @@
+{
+  "name": "react-native-letter-avatar",
+  "version": "1.0.0",
+  "description": "A React Native component that displays the first letter of a given text inside a circle.",
+  "main": "dist/LetterCircle.js",
+  "types": "dist/LetterCircle.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1 || ^18.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "@types/react-native": "^0.64.0",
+    "typescript": "^4.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feyzilim/react-native-letter-avatar.git"
+  },
+  "keywords": [
+    "react-native",
+    "circle",
+    "letter",
+    "component"
+  ],
+  "author": "Feyzili Mikayil <feyzilim@gmail.com>",
+  "license": "MIT"
+}
